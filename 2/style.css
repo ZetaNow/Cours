@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body 							{ background-color:#ee3a8a; margin:0; padding:0;}
+h1								{ color:#222;margin:0; padding:0;}
+h3 								{ color:#e2e2e2;}
+p 								{ margin:0; padding:0;}
+
+/* header */
+#conteneur 					{width:980px; background-color:#ccc; margin:auto;}
+#haut 							{background-color:#fff; height:auto; padding-top:20px;}
+#menu 							{background-color:#ccc; width:980px; text-align:center; height:50px; line-height:50px;}
+#menu li						{list-style-type:none; display:inline-block;}
+#menu li a						{text-decoration:none; color:#222;}
+#menu li a:hover				{color:#fff;}
+ul								{margin:0; padding:0;}
+
+/* contenu */
+#contenu 						{width:640px; background-color:#ececec; padding:20px; float:left;}
+#contenu p 					{color:#222; font-size:13px; line-height:18px; margin-bottom:20px;}
+#contenu h1 					{margin-bottom:20px;}
+
+#sidebar 						{width:260px; background-color:#dbdbdb;float:left; height:auto;padding:20px;}
+#sidebar h2 					{ color:#222; font-size:13px;}
+#sidebar li					{list-style-type:none;font-size:11px; }
+#sidebar ul					{ margin-left:20px}
+
+#pdp	 						{width:940px; background-color:#222;float:left; height:auto;padding:20px; color:#fff;font-size:12px; text-align:center; }
